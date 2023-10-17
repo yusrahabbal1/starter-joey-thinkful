@@ -1,0 +1,40 @@
+/* Set the title's font size for mobile */
+h1 {
+  font-size: 52px;
+  text-align: center; /* Center the title text */
+  padding: 20px 0; /* Add spacing around the title */
+}
+
+/* Set the title's font size for desktop */
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+/* Set the background color to a dark blue */
+header {
+  background-color: #0B1C51;
+  padding: 10px; /* Add padding to the header */
+  display: flex;
+  justify-content: space-between; /* Push the title and menu to the sides */
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  padding: 0;
+}
+
+nav li {
+  font-family: Montserrat; /* Set the font to Montserrat */
+  margin-right: 10px; /* Add spacing between menu items */
+}
+
+/* Set font size for desktop navigation links */
+@media screen and (min-width: 600px) {
+  nav li {
+    font-size: 18px;
+  }
+}
